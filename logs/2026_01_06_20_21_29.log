@@ -1,0 +1,4 @@
+[ 2026-01-06 20:21:29,290 ] 7 root - INFO - Pipeline started
+[ 2026-01-06 20:21:29,290 ] 14 root - INFO - Starting data ingestion
+[ 2026-01-06 20:21:29,306 ] 31 root - INFO - Data ingestion completed
+[ 2026-01-06 20:21:29,353 ] 19 root - INFO - Pipeline completed successfully
