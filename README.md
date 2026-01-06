@@ -24,32 +24,6 @@ The dataset contains the following columns:
 
 ---
 
-## Project Structure
-Medical-Insurance-Project/
-│
-├── src/mlProject/
-│ ├── components/
-│ │ ├── data_ingestion.py
-│ │ ├── data_transformation.py
-│ │ └── model_trainer.py
-│ │
-│ ├── pipeline/
-│ │ ├── train_pipeline.py
-│ │ └── predict_pipeline.py
-│
-├── notebooks/
-│ └── EDA.ipynb
-│
-├── templates/
-│ └── index.html
-│
-├── app.py
-├── main.py
-├── requirements.txt
-└── README.md
-
-
----
 
 ## Workflow
 1. Data ingestion and train-test split  
