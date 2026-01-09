@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.pkl
+mlruns
+.env
+.git
+.vscode
+notebooks
