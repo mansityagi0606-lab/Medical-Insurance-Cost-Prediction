@@ -116,7 +116,30 @@ The code is organized into modular components so each stage of the ML pipeline c
 
 ---
 
-## Why this project
+## Dockerized Deployment
 
-This project demonstrates how machine learning systems are built in practice — not just in notebooks.  
-It shows data preprocessing, model training, evaluation, and deployment as a working API, making it suitable for real-world use.
+This project is fully containerized using Docker, which allows the entire machine learning API (model + preprocessing + FastAPI server) to run in a reproducible and production-ready environment.
+
+Using Docker ensures:
+
+The same code runs identically on any machine
+
+All dependencies are packaged together
+
+The API can be deployed easily on cloud platforms such as AWS
+Running the Project Using Docker
+
+Step 1: Build the Docker image
+From the project root directory, run:
+docker build -t insurance-ml .
+
+This creates a Docker image containing:
+ The trained machine learning model
+ The preprocessing pipeline
+ The FastAPI application
+ 
+Step 2: Run the Docker container
+docker run -p 8000:8000 insurance-ml
+
+Step 3: Access the API
+http://localhost:8000/docs
